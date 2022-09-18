@@ -492,6 +492,12 @@ This command will remove the rows from database where Region value is NULL.</spa
 <span id="_10.8" style=" font-family:Arial; font-size:10.8px; color:#0000ff">
 DELETE FROM employees WHERE Region IS NULL;</span>
 </div>
+  This will return full name in new column.
+SELECT FirstName,LastName, CONCAT(FirstName, " ", LastName) AS Full_Name FROM employees;
+
+This command will add a new column named FullName and then it will return full name in new column.
+ALTER TABLE employees ADD FullName varchar(20);
+UPDATE employees SET FullName = CONCAT(FirstName, " ", LastName);
 </nowrap></nobr>
 </body>
 </html>
