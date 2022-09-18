@@ -1,0 +1,497 @@
+<html>
+<head>
+<title>D:\uploadedFiles\993e6326933b4fd237c7e726ff56438c-b8390b0777de6f\p1gd70tf9mcoc18cq1rlh1fh81pse4.pdf</title>
+<style type="text/css">
+<!--
+body { font-family: Arial; font-size: 14.8px }
+.pos { position: absolute; z-index: 0; left: 0px; top: 0px }
+-->
+</style>
+</head>
+<body>
+<nobr><nowrap>
+<div class="pos" id="_0:0" style="top:0">
+<img name="_1400:850" src="page_001.jpg" height="1400" width="850" border="0" usemap="#Map"></div>
+<div class="pos" id="_50:50" style="top:50;left:50">
+<span id="_12.2" style=" font-family:Arial; font-size:12.2px; color:#000000">
+s</span>
+</div>
+<div class="pos" id="_50:81" style="top:81;left:50">
+<span id="_12.3" style=" font-family:Arial; font-size:12.3px; color:#0000ff">
+SELECT * FROM `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality` LIMIT 1000</span>
+</div>
+<div class="pos" id="_50:110" style="top:110;left:50">
+<span id="_12.7" style="font-weight:bold; font-family:Arial; font-size:12.7px; color:#098558">
+DISTINCT will select all different city names. </span>
+</div>
+<div class="pos" id="_50:125" style="top:125;left:50">
+<span id="_11.2" style=" font-family:Arial; font-size:11.2px; color:#0000ff">
+SELECT DISTINCT City FROM customers;</span>
+</div>
+<div class="pos" id="_50:154" style="top:154;left:50">
+<span id="_11.2" style=" font-family:Arial; font-size:11.2px; color:#0000ff">
+SELECT * FROM customers ORDER BY City;</span>
+</div>
+<div class="pos" id="_50:184" style="top:184;left:50">
+<span id="_11.9" style="font-weight:bold; font-family:Arial; font-size:11.9px; color:#098558">
+Set the value of the City columns to 'Oslo',to only ones where the Country column has the value "Norway".</span>
+</div>
+<div class="pos" id="_50:199" style="top:199;left:50">
+<span id="_11.9" style=" font-family:Arial; font-size:11.9px; color:#0000ff">
+UPDATE Customers SET city = `Oslo` WHERE Country = `Norway`;</span>
+</div>
+<div class="pos" id="_50:228" style="top:228;left:50">
+<span id="_12.3" style="font-weight:bold; font-family:Arial; font-size:12.3px; color:#098558">
+This will delete all the rows where country is Norway.</span>
+</div>
+<div class="pos" id="_50:243" style="top:243;left:50">
+<span id="_11.1" style=" font-family:Arial; font-size:11.1px; color:#0000ff">
+DELETE FROM Customers WHERE Country = `Norway`;</span>
+</div>
+<div class="pos" id="_50:272" style="top:272;left:50">
+<span id="_12.0" style="font-weight:bold; font-family:Arial; font-size:12.0px; color:#098558">
+Order by will short your column in ascending order from a to Z</span>
+</div>
+<div class="pos" id="_50:287" style="top:287;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+SELECT * </span>
+</div>
+<div class="pos" id="_50:303" style="top:303;left:50">
+<span id="_12.5" style=" font-family:Arial; font-size:12.5px; color:#0000ff">
+FROM `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality` </span>
+</div>
+<div class="pos" id="_50:318" style="top:318;left:50">
+<span id="_11.4" style=" font-family:Arial; font-size:11.4px; color:#0000ff">
+ORDER BY Births </span>
+</div>
+<div class="pos" id="_50:333" style="top:333;left:50">
+<span id="_12.2" style=" font-family:Arial; font-size:12.2px; color:#0000ff">
+LIMIT 10 </span>
+</div>
+<div class="pos" id="_50:379" style="top:379;left:50">
+<span id="_12.2" style="font-weight:bold; font-family:Arial; font-size:12.2px; color:#098558">
+Asc is a function to set order from lowest to highest</span>
+</div>
+<div class="pos" id="_50:394" style="top:394;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+SELECT *</span>
+</div>
+<div class="pos" id="_50:409" style="top:409;left:50">
+<span id="_12.5" style=" font-family:Arial; font-size:12.5px; color:#0000ff">
+FROM `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality` </span>
+</div>
+<div class="pos" id="_50:424" style="top:424;left:50">
+<span id="_11.1" style=" font-family:Arial; font-size:11.1px; color:#0000ff">
+ORDER BY Births</span>
+</div>
+<div class="pos" id="_50:439" style="top:439;left:50">
+<span id="_11.1" style=" font-family:Arial; font-size:11.1px; color:#0000ff">
+ASC </span>
+</div>
+<div class="pos" id="_50:455" style="top:455;left:50">
+<span id="_11.6" style=" font-family:Arial; font-size:11.6px; color:#0000ff">
+LIMIT 10</span>
+</div>
+<div class="pos" id="_50:500" style="top:500;left:50">
+<span id="_12.3" style="font-weight:bold; font-family:Arial; font-size:12.3px; color:#098558">
+Desc is a function to set order from highest to lowest</span>
+</div>
+<div class="pos" id="_50:515" style="top:515;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+SELECT *</span>
+</div>
+<div class="pos" id="_50:531" style="top:531;left:50">
+<span id="_12.5" style=" font-family:Arial; font-size:12.5px; color:#0000ff">
+FROM `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality` </span>
+</div>
+<div class="pos" id="_50:546" style="top:546;left:50">
+<span id="_11.5" style=" font-family:Arial; font-size:11.5px; color:#0000ff">
+WHERE Year = '2018-01-01'</span>
+</div>
+<div class="pos" id="_50:561" style="top:561;left:50">
+<span id="_11.1" style=" font-family:Arial; font-size:11.1px; color:#0000ff">
+ORDER BY Births</span>
+</div>
+<div class="pos" id="_50:576" style="top:576;left:50">
+<span id="_11.1" style=" font-family:Arial; font-size:11.1px; color:#0000ff">
+DESC</span>
+</div>
+<div class="pos" id="_50:591" style="top:591;left:50">
+<span id="_11.6" style=" font-family:Arial; font-size:11.6px; color:#0000ff">
+LIMIT 10</span>
+</div>
+<div class="pos" id="_50:635" style="top:635;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+SELECT * </span>
+</div>
+<div class="pos" id="_50:648" style="top:648;left:50">
+<span id="_11.4" style=" font-family:Arial; font-size:11.4px; color:#3266d6">
+FROM `Mobie_data.Movies` </span>
+</div>
+<div class="pos" id="_50:661" style="top:661;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+WHERE Genre = "Comedy" AND Revenue &gt; 300000000</span>
+</div>
+<div class="pos" id="_50:674" style="top:674;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+ORDER BY Release_Date </span>
+</div>
+<div class="pos" id="_50:687" style="top:687;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+DESC</span>
+</div>
+<div class="pos" id="_50:715" style="top:715;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+SELECT * FROM Customers</span>
+</div>
+<div class="pos" id="_50:730" style="top:730;left:50">
+<span id="_11.9" style=" font-family:Arial; font-size:11.9px; color:#0000ff">
+WHERE Country='Germany' AND City='Berlin';</span>
+</div>
+<div class="pos" id="_50:760" style="top:760;left:50">
+<span id="_10.7" style=" font-family:Arial; font-size:10.7px; color:#0000ff">
+SELECT * FROM Customers</span>
+</div>
+<div class="pos" id="_50:775" style="top:775;left:50">
+<span id="_12.3" style=" font-family:Arial; font-size:12.3px; color:#0000ff">
+WHERE City='Berlin' OR City='Brampton';</span>
+</div>
+<div class="pos" id="_50:807" style="top:807;left:50">
+<span id="_12.3" style="font-weight:bold; font-family:Arial; font-size:12.3px; color:#098558">
+INSERT will insert the data into database columns.</span>
+</div>
+<div class="pos" id="_50:820" style="top:820;left:50">
+<span id="_12.3" style=" font-family:Arial; font-size:12.3px; color:#0000ff">
+INSERT INTO `customers`(`Name`,`City`,`PostalCode`) </span>
+</div>
+<div class="pos" id="_50:835" style="top:835;left:50">
+<span id="_12.7" style=" font-family:Arial; font-size:12.7px; color:#0000ff">
+VALUES('Riddhi','Navasari','346789');</span>
+</div>
+<div class="pos" id="_50:880" style="top:880;left:50">
+<span id="_10.8" style=" font-family:Arial; font-size:10.8px; color:#0000ff">
+DELETE FROM Customers WHERE Name='chirag';</span>
+</div>
+<div class="pos" id="_50:912" style="top:912;left:50">
+<span id="_12.0" style="font-weight:bold; font-family:Arial; font-size:12.0px; color:#098558">
+SELECT TOP will select the first 3 rows from database.</span>
+</div>
+<div class="pos" id="_50:925" style="top:925;left:50">
+<span id="_11.1" style=" font-family:Arial; font-size:11.1px; color:#0000ff">
+SELECT TOP 3 * FROM Customers; </span>
+</div>
+<div class="pos" id="_50:942" style="top:942;left:50">
+<span id="_12.8" style="font-weight:bold; font-family:Arial; font-size:12.8px; color:#098558">
+Limit will select the first 4 rows from database.</span>
+</div>
+<div class="pos" id="_50:955" style="top:955;left:50">
+<span id="_11.3" style=" font-family:Arial; font-size:11.3px; color:#0000ff">
+SELECT * FROM Customers LIMIT 4;</span>
+</div>
+<div class="pos" id="_50:985" style="top:985;left:50">
+<span id="_12.4" style="font-weight:bold; font-family:Arial; font-size:12.4px; color:#098558">
+MIN will finds the price of the cheapest product.</span>
+</div>
+<div class="pos" id="_50:1000" style="top:1000;left:50">
+<span id="_11.7" style=" font-family:Arial; font-size:11.7px; color:#0000ff">
+SELECT MIN(Price) AS SmallestPrice</span>
+</div>
+<div class="pos" id="_50:1015" style="top:1015;left:50">
+<span id="_11.2" style=" font-family:Arial; font-size:11.2px; color:#0000ff">
+FROM Products;</span>
+</div>
+<div class="pos" id="_50:1045" style="top:1045;left:50">
+<span id="_11.5" style="font-weight:bold; font-family:Arial; font-size:11.5px; color:#098558">
+MAX finds the most value from column.</span>
+</div>
+<div class="pos" id="_50:1060" style="top:1060;left:50">
+<span id="_11.5" style=" font-family:Arial; font-size:11.5px; color:#0000ff">
+SELECT MAX(Price) AS LargestPrice</span>
+</div>
+<div class="pos" id="_50:1075" style="top:1075;left:50">
+<span id="_11.2" style=" font-family:Arial; font-size:11.2px; color:#0000ff">
+FROM Products;</span>
+</div>
+<div class="pos" id="_50:1090" style="top:1090;left:50">
+<span id="_11.2" style="font-weight:bold; font-family:Arial; font-size:11.2px; color:#098558">
+COUNT will count the number of items in column</span>
+</div>
+<div class="pos" id="_50:1105" style="top:1105;left:50">
+<span id="_11.2" style=" font-family:Arial; font-size:11.2px; color:#0000ff">
+SELECT COUNT(ProductID) FROM Products;</span>
+</div>
+<div class="pos" id="_50:1135" style="top:1135;left:50">
+<span id="_11.2" style="font-weight:bold; font-family:Arial; font-size:11.2px; color:#098558">
+SUM will do the summation of whole price column</span>
+</div>
+<div class="pos" id="_50:1150" style="top:1150;left:50">
+<span id="_11.2" style=" font-family:Arial; font-size:11.2px; color:#0000ff">
+SELECT SUM(price) FROM Products</span>
+</div>
+<div class="pos" id="_50:1179" style="top:1179;left:50">
+<span id="_11.2" style=" font-family:Arial; font-size:11.2px; color:#0000ff">
+D<span style="font-weight:bold; color:#098558"> ROP will remove the column from Database</span></span>
+</div>
+<div class="pos" id="_50:1194" style="top:1194;left:50">
+<span id="_10.6" style=" font-family:Arial; font-size:10.6px; color:#0000ff">
+ALTER TABLE customers DROP COLUMN Fax;</span>
+</div>
+<div class="pos" id="_50:1225" style="top:1225;left:50">
+<span id="_11.9" style="font-weight:bold; font-family:Arial; font-size:11.9px; color:#098558">
+Like %p will select all products with a ProductName ending with "p":</span>
+</div>
+<div class="pos" id="_50:1239" style="top:1239;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+SELECT * FROM Products</span>
+</div>
+<div class="pos" id="_50:1254" style="top:1254;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+WHERE ProductName like "%p"</span>
+</div>
+<div class="pos" id="_50:1284" style="top:1284;left:50">
+<span id="_12.1" style="font-weight:bold; font-family:Arial; font-size:12.1px; color:#098558">
+Like p% will select all products with a ProductName starting with "p":</span>
+</div>
+<div class="pos" id="_50:1299" style="top:1299;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+SELECT * FROM Products</span>
+</div>
+<div class="pos" id="_50:1314" style="top:1314;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+WHERE ProductName like "p%"</span>
+</div>
+<div class="pos" id="_0:0" style="top:1400">
+<img name="_1400:850" src="page_002.jpg" height="1400" width="850" border="0" usemap="#Map"></div>
+<div class="pos" id="_50:1450" style="top:1450;left:50">
+<span id="_11.8" style="font-weight:bold; font-family:Arial; font-size:11.8px; color:#098558">
+Like %or% will selects all customers with a CustomerName that have "or" in any position</span>
+</div>
+<div class="pos" id="_50:1465" style="top:1465;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+SELECT * FROM Products</span>
+</div>
+<div class="pos" id="_50:1480" style="top:1480;left:50">
+<span id="_10.9" style=" font-family:Arial; font-size:10.9px; color:#0000ff">
+WHERE ProductName LIKE '%or%'</span>
+</div>
+<div class="pos" id="_50:1664" style="top:1664;left:50">
+<span id="_12.0" style="font-weight:bold; font-family:Arial; font-size:12.0px; color:#098558">
+Like a%o will selects all customers with a ContactName that starts with "a" and ends with "o":</span>
+</div>
+<div class="pos" id="_50:1679" style="top:1679;left:50">
+<span id="_10.7" style=" font-family:Arial; font-size:10.7px; color:#0000ff">
+SELECT * FROM Customers</span>
+</div>
+<div class="pos" id="_50:1694" style="top:1694;left:50">
+<span id="_11.1" style=" font-family:Arial; font-size:11.1px; color:#0000ff">
+WHERE ContactName LIKE 'a%o';</span>
+</div>
+<div class="pos" id="_50:1724" style="top:1724;left:50">
+<span id="_11.7" style="font-weight:bold; font-family:Arial; font-size:11.7px; color:#098558">
+NOT Like a% will selects all customers with a CustomerName that does NOT start with "a"</span>
+</div>
+<div class="pos" id="_50:1739" style="top:1739;left:50">
+<span id="_10.7" style=" font-family:Arial; font-size:10.7px; color:#0000ff">
+SELECT * FROM Customers</span>
+</div>
+<div class="pos" id="_50:1754" style="top:1754;left:50">
+<span id="_10.7" style=" font-family:Arial; font-size:10.7px; color:#0000ff">
+WHERE CustomerName NOT LIKE 'a%';</span>
+</div>
+<div class="pos" id="_50:1784" style="top:1784;left:50">
+<span id="_12.2" style="font-weight:bold; font-family:Arial; font-size:12.2px; color:#098558">
+Like ber% will select all Customers with a CityName starting with Ber.</span>
+</div>
+<div class="pos" id="_50:1799" style="top:1799;left:50">
+<span id="_10.7" style=" font-family:Arial; font-size:10.7px; color:#0000ff">
+SELECT * FROM Customers</span>
+</div>
+<div class="pos" id="_50:1814" style="top:1814;left:50">
+<span id="_11.8" style=" font-family:Arial; font-size:11.8px; color:#0000ff">
+WHERE City LIKE 'ber%';</span>
+</div>
+<div class="pos" id="_50:2034" style="top:2034;left:50">
+<span id="_12.2" style="font-weight:bold; font-family:Arial; font-size:12.2px; color:#098558">
+Like %es% will select all customers that have es in their CityName. </span>
+</div>
+<div class="pos" id="_50:2049" style="top:2049;left:50">
+<span id="_11.7" style=" font-family:Arial; font-size:11.7px; color:#0000ff">
+SELECT * FROM customers where city LIKE '%es%';</span>
+</div>
+<div class="pos" id="_50:2094" style="top:2094;left:50">
+<span id="_12.2" style="font-weight:bold; font-family:Arial; font-size:12.2px; color:#098558">
+The following SQL statement selects all customers with a City starting with "L", followed by any character, followed by </span>
+</div>
+<div class="pos" id="_50:2109" style="top:2109;left:50">
+<span id="_12.2" style="font-weight:bold; font-family:Arial; font-size:12.2px; color:#098558">
+"n", followed by any character, followed by "on"</span>
+</div>
+<div class="pos" id="_50:2124" style="top:2124;left:50">
+<span id="_11.3" style=" font-family:Arial; font-size:11.3px; color:#0000ff">
+SELECT * FROM Customers WHERE City LIKE 'L_n_on';</span>
+</div>
+<div class="pos" id="_50:2404" style="top:2404;left:50">
+<span id="_12.6" style="font-weight:bold; font-family:Arial; font-size:12.6px; color:#098558">
+This will select all the customers with a CityName where the second letter of a city is a.</span>
+</div>
+<div class="pos" id="_50:2418" style="top:2418;left:50">
+<span id="_10.7" style=" font-family:Arial; font-size:10.7px; color:#0000ff">
+SELECT * FROM Customers</span>
+</div>
+<div class="pos" id="_50:2433" style="top:2433;left:50">
+<span id="_11.6" style=" font-family:Arial; font-size:11.6px; color:#0000ff">
+WHERE City LIKE '_a%';</span>
+</div>
+<div class="pos" id="_50:2737" style="top:2737;left:50">
+<span id="_11.6" style="font-weight:bold; font-family:Arial; font-size:11.6px; color:#098558">
+The following SQL statement selects all customers that are located in "Germany", "France" or "UK":</span>
+</div>
+<div class="pos" id="_0:0" style="top:2800">
+<img name="_1400:850" src="page_003.jpg" height="1400" width="850" border="0" usemap="#Map"></div>
+<div class="pos" id="_50:2850" style="top:2850;left:50">
+<span id="_10.7" style=" font-family:Arial; font-size:10.7px; color:#0000ff">
+SELECT * FROM Customers</span>
+</div>
+<div class="pos" id="_50:2865" style="top:2865;left:50">
+<span id="_12.7" style=" font-family:Arial; font-size:12.7px; color:#0000ff">
+WHERE Country IN ('London','Paris');</span>
+</div>
+<div class="pos" id="_50:2895" style="top:2895;left:50">
+<span id="_11.7" style="font-weight:bold; font-family:Arial; font-size:11.7px; color:#098558">
+The following SQL statement selects all City with a CityName between London and Paris.</span>
+</div>
+<div class="pos" id="_50:2909" style="top:2909;left:50">
+<span id="_11.3" style=" font-family:Arial; font-size:11.3px; color:#0000ff">
+SELECT * FROM `customers` </span>
+</div>
+<div class="pos" id="_50:2924" style="top:2924;left:50">
+<span id="_11.6" style=" font-family:Arial; font-size:11.6px; color:#0000ff">
+WHERE City BETWEEN 'London' and 'Paris';</span>
+</div>
+<div class="pos" id="_50:2955" style="top:2955;left:50">
+<span id="_11.6" style="font-weight:bold; font-family:Arial; font-size:11.6px; color:#098558">
+The following SQL statement selects all City with a CityName Not between London and Paris.</span>
+</div>
+<div class="pos" id="_50:2969" style="top:2969;left:50">
+<span id="_11.0" style=" font-family:Arial; font-size:11.0px; color:#0000ff">
+SELECT * FROM customers </span>
+</div>
+<div class="pos" id="_50:2984" style="top:2984;left:50">
+<span id="_11.0" style=" font-family:Arial; font-size:11.0px; color:#0000ff">
+WHERE City NOT BETWEEN 'London' AND 'Paris';</span>
+</div>
+<div class="pos" id="_50:3014" style="top:3014;left:50">
+<span id="_10.3" style="font-weight:bold; font-family:Arial; font-size:10.3px; color:#098558">
+BETWEEN and NOT BETWEEN more examples : </span>
+</div>
+<div class="pos" id="_50:3030" style="top:3030;left:50">
+<span id="_10.3" style=" font-family:Arial; font-size:10.3px; color:#098558">
+<a href="https://www.w3schools.com/sql/sql_between.asp#:~:text=The%20following%20SQL%20statement%20selects%20all%20orders%20with%20an%20OrderDate%20between%20'01-July-1996'%20and%20'31-July-1996':">https://www.w3schools.com/sql/sql_between.asp#:~:text=The%20following%20SQL%20statement%20selects%20all%20orders%20with%20an%20OrderDate%20bet</span>
+</div>
+<div class="pos" id="_50:3045" style="top:3045;left:50">
+<span id="_9.9" style=" font-family:Arial; font-size:9.9px; color:#098558">
+ween%20%2701%2DJuly%2D1996%27%20and%20%2731%2DJuly%2D1996%27%3A</span>
+</div>
+<div class="pos" id="_50:3076" style="top:3076;left:50">
+<span id="_11.8" style="font-weight:bold; font-family:Arial; font-size:11.8px; color:#098558">
+</a>The following SQL statement creates two aliases, one for the CustomerID column and one for the ContactName. This will </span>
+</div>
+<div class="pos" id="_50:3090" style="top:3090;left:50">
+<span id="_11.8" style="font-weight:bold; font-family:Arial; font-size:11.8px; color:#098558">
+create two separate column with name ID and CN respectively.</span>
+</div>
+<div class="pos" id="_50:3105" style="top:3105;left:50">
+<span id="_11.2" style=" font-family:Arial; font-size:11.2px; color:#0000ff">
+SELECT CustomerID AS ID, ContactName AS CN FROM customers;</span>
+</div>
+<div class="pos" id="_50:3120" style="top:3120;left:50">
+<span id="_11.2" style="font-weight:bold; font-family:Arial; font-size:11.2px; color:#098558">
+CONCAT command will use for merge rows.<span style="font-weight:normal; color:#0000ff"> </span></span>
+</div>
+<div class="pos" id="_50:3135" style="top:3135;left:50">
+<span id="_13.1" style=" font-family:Arial; font-size:13.1px; color:#0000ff">
+SELECT ContactName, CONCAT (Address , ' ' , City , ',' , Region , ',' , Country, ' ', PostalCode) AS FullAddress FROM </span>
+</div>
+<div class="pos" id="_50:3150" style="top:3150;left:50">
+<span id="_12.0" style=" font-family:Arial; font-size:12.0px; color:#0000ff">
+customers;</span>
+</div>
+<div class="pos" id="_50:3180" style="top:3180;left:50">
+<span id="_12.0" style="font-weight:bold; font-family:Arial; font-size:12.0px; color:#098558">
+IN Operator will select all the records where Country is either "Norway" or "France".</span>
+</div>
+<div class="pos" id="_50:3195" style="top:3195;left:50">
+<span id="_12.0" style=" font-family:Arial; font-size:12.0px; color:#0000ff">
+SELECT * FROM Customers WHERE Country IN ('Norway','France');</span>
+</div>
+<div class="pos" id="_50:3225" style="top:3225;left:50">
+<span id="_11.6" style="font-weight:bold; font-family:Arial; font-size:11.6px; color:#098558">
+GROUP BY will count the customers in each country.<span style="font-weight:normal; color:#0000ff"> </span></span>
+</div>
+<div class="pos" id="_50:3240" style="top:3240;left:50">
+<span id="_11.1" style=" font-family:Arial; font-size:11.1px; color:#0000ff">
+SELECT COUNT(CustomerID),Country FROM Customers GROUP BY Country;</span>
+</div>
+<div class="pos" id="_50:3419" style="top:3419;left:50">
+<span id="_11.1" style="font-weight:bold; font-family:Arial; font-size:11.1px; color:#098558">
+DROP Command will delete the database.</span>
+</div>
+<div class="pos" id="_50:3433" style="top:3433;left:50">
+<span id="_10.4" style=" font-family:Arial; font-size:10.4px; color:#0000ff">
+DROP DATABASE Customers;</span>
+</div>
+<div class="pos" id="_50:3448" style="top:3448;left:50">
+<span id="_10.7" style=" font-family:Arial; font-size:10.7px; color:#0000ff">
+DROP TABLE Persons;</span>
+</div>
+<div class="pos" id="_50:3479" style="top:3479;left:50">
+<span id="_11.3" style="font-weight:bold; font-family:Arial; font-size:11.3px; color:#098558">
+TRUNCATE Command will delete all the records from database.</span>
+</div>
+<div class="pos" id="_50:3493" style="top:3493;left:50">
+<span id="_10.7" style=" font-family:Arial; font-size:10.7px; color:#0000ff">
+TRUNCATE TABLE persons;</span>
+</div>
+<div class="pos" id="_50:3523" style="top:3523;left:50">
+<span id="_11.5" style="font-weight:bold; font-family:Arial; font-size:11.5px; color:#098558">
+This Command will Add a column of type DATE called Birthday.</span>
+</div>
+<div class="pos" id="_50:3538" style="top:3538;left:50">
+<span id="_10.7" style=" font-family:Arial; font-size:10.7px; color:#0000ff">
+ALTER TABLE Persons</span>
+</div>
+<div class="pos" id="_50:3553" style="top:3553;left:50">
+<span id="_11.3" style=" font-family:Arial; font-size:11.3px; color:#0000ff">
+ADD Birthday DATE;</span>
+</div>
+<div class="pos" id="_50:3583" style="top:3583;left:50">
+<span id="_11.3" style="font-weight:bold; font-family:Arial; font-size:11.3px; color:#098558">
+This Command will Delete a column from Database.</span>
+</div>
+<div class="pos" id="_50:3598" style="top:3598;left:50">
+<span id="_10.7" style=" font-family:Arial; font-size:10.7px; color:#0000ff">
+ALTER TABLE Persons</span>
+</div>
+<div class="pos" id="_50:3613" style="top:3613;left:50">
+<span id="_10.7" style=" font-family:Arial; font-size:10.7px; color:#0000ff">
+DROP COLUMN Birthday;</span>
+</div>
+<div class="pos" id="_50:3643" style="top:3643;left:50">
+<span id="_11.3" style="font-weight:bold; font-family:Arial; font-size:11.3px; color:#098558">
+This command will change company name to agile where country is Germany.</span>
+</div>
+<div class="pos" id="_50:3658" style="top:3658;left:50">
+<span id="_11.3" style=" font-family:Arial; font-size:11.3px; color:#0000ff">
+UPDATE customers SET CompanyName = "Agile" WHERE Country = "Germany";</span>
+</div>
+<div class="pos" id="_50:3688" style="top:3688;left:50">
+<span id="_11.3" style="font-weight:bold; font-family:Arial; font-size:11.3px; color:#098558">
+This command will remove the rows from database where Region value is NULL.</span>
+</div>
+<div class="pos" id="_50:3703" style="top:3703;left:50">
+<span id="_10.8" style=" font-family:Arial; font-size:10.8px; color:#0000ff">
+DELETE FROM employees WHERE Region IS NULL;</span>
+</div>
+</nowrap></nobr>
+</body>
+</html>
