@@ -12,5 +12,9 @@ The DROP command is used to remove table definition and its contents. Whereas th
 What is the diference between Primary key and Foreign key?
 A primary key generally focuses on the uniqueness of the table. It assures the value in the specific column is unique. A foreign key is generally used to build a relationship between the two tables. Table allows only one primary key.
 
-Further blogs on SQL : <a href="https://intellipaat.com/blog/tutorial/sql-tutorial/" target="_blank"></a>
+ <a href="https://intellipaat.com/blog/tutorial/sql-tutorial/" target="_blank">Further blogs on SQL :</a>
+
+
+
+
 ![](SQL.jpg)
