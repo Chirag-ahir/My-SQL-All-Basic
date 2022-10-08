@@ -11,8 +11,11 @@ Database is a storage system that has a collection of data.
 What is SQL ? <br>
 SQL stands for ‘Structured Query Language’. It is the most common programming language used for executing queries, and handling data by using CRUD (create, read, update and delete) operation on a Relational Database Management System (RDMS) like MySQL, PostgreSQL.
 
-What is MySQL ?
+What is MySQL ?<br>
 MySQL is a relational database management system (RDBMS) developed by Oracle that is based on structured query language (SQL).
+
+What is MySQL Aliases ? <br>
+Aliases in MySQL is used to give a temporary name to a table or a column in a table for the purpose of a particular query.
 
 What is the difference between DROP and TRUNCATE ?<br>
 DROP command is used to remove the whole database or table. Whereas the TRUNCATE command is used to remove all the rows from the table.
