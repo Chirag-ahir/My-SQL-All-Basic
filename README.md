@@ -31,6 +31,18 @@ what is the difference between DELETE and TRUNCATE ?<BR>
 
 What is the diference between Primary key and Foreign key?
 A primary key generally focuses on the uniqueness of the table. It assures the value in the specific column is unique. A foreign key is generally used to build a relationship between the two tables. Table allows only one primary key.
+ 
+ What is SQL Joins ?<br>
+ A SQL JOIN clause is used to combine rows from two or more tables, based on a related column between them.<br>
+ 
+>INNER JOIN: Returns records that have matching values in both tables<br> 
+ 
+>LEFT JOIN: Returns all records from the left table, and the matched records from the right table<br>
+ 
+>RIGHT JOIN: Returns all records from the right table, and the matched records from the left table<br>
+ 
+>CROSS JOIN: Returns all records from both tables<br>
+
 
  <a href="https://intellipaat.com/blog/tutorial/sql-tutorial/" target="_blank">Further blogs on SQL :</a>
 
