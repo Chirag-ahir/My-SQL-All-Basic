@@ -1,4 +1,6 @@
-#My-SQL-All-Basic
+# My-SQL-All-Basic
+
+>Sample Database for practice : <a href = "https://github.com/harsha547/ClassicModels-Database-Queries/blob/master/database.sql" target="_blank" > Click Here </a>
 
 What is Data ?<br>
 Data is defined as facts or figures, or information that's stored in or used by a computer.
