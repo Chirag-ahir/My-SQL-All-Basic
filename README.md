@@ -34,6 +34,9 @@ DDL commands are used to define the structure of the database, table, schemas, e
 
 What is DML commands ?<br>
 DML commands are used to make changes in the database, such as: CRUD operations to create, read, update, and delete data. Using the INSERT, SELECT, UPDATE and Delete commands.
+ 
+What is Constraints in SQL ?<br>
+SQL constraints are used to specify rules for the data in a table. Constraints are used to limit the type of data that can go into a table. 
 
 What is the diference between Primary key and Foreign key?
 A primary key generally focuses on the uniqueness of the table. It assures the value in the specific column is unique. A foreign key is generally used to build a relationship between the two tables. Table allows only one primary key.
