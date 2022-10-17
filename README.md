@@ -64,3 +64,5 @@ A primary key generally focuses on the uniqueness of the table. It assures the v
 
 
 ![](SQL.jpg)
+ 
+
