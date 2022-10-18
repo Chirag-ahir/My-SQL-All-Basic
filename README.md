@@ -5,6 +5,9 @@
 What is Table ?<br>
 A table is a Database object that is composed of rows and columns and contains related data. 
 
+What is Field ?<br>
+A field is a column in a table that is supposed to provide specific information about all the records in the table. 
+
 What is Data ?<br>
 Data is defined as facts or figures, or information that's stored in or used by a computer.
 
