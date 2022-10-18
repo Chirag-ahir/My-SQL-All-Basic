@@ -8,6 +8,12 @@ A table is a Database object that is composed of rows and columns and contains r
 What is Field ?<br>
 A field is a column in a table that is supposed to provide specific information about all the records in the table. 
 
+What is a Record ?<br>
+A record is a row in a table. It is also known as a Horizontal entity of a table.
+
+What is Null value ?
+A null is neither an empty string nor a zero value.
+
 What is Data ?<br>
 Data is defined as facts or figures, or information that's stored in or used by a computer.
 
