@@ -45,10 +45,26 @@ what is the difference between DELETE and TRUNCATE ?<BR>
  >Ex of DROP : drop table students; 
  
 What is DDL commands ?<br>
-DDL commands are used to define the structure of the database, table, schemas, etc. It enables us to perform the operations like CREATE, DROP, ALTER, RENAME, and TRUNCATE schema objects.
+DDL commands are used to define the structure of the database, table, schemas, etc. It enables us to perform the operations like 
+ > CREATE
+ 
+ >DROP
+ 
+ >ALTER
+ 
+ >RENAME
+ 
+ >TRUNCATE 
 
 What is DML commands ?<br>
-DML commands are used to make changes in the database, such as: CRUD operations to create, read, update, and delete data. Using the INSERT, SELECT, UPDATE and Delete commands.
+DML commands are used to make changes in the database, such as: CRUD operations to create, read, update, and delete data. Using the 
+>INSERT 
+ 
+ >SELECT 
+
+ >UPDATE
+ 
+ >Delete 
  
 What is Constraints in SQL ?<br>
 SQL constraints are used to specify rules for the data in a table. Constraints are used to limit the type of data that can go into a table. 
