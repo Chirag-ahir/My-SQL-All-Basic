@@ -67,7 +67,7 @@ DML commands are used to make changes in the database, such as: CRUD operations 
  >Delete 
  
 What is Constraints in SQL ?<br>
-SQL constraints are used to specify rules for the data in a table. Constraints are used to limit the type of data that can go into a table. 
+SQL constraints are used to specify rules for the data in a table. Constraints are used to limit the type of data that can go into a table. Following are the types of constraints in SQL
 
 >NOT NULL - Ensures that a column cannot have a NULL value
  
