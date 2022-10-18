@@ -52,11 +52,25 @@ DML commands are used to make changes in the database, such as: CRUD operations 
  
 What is Constraints in SQL ?<br>
 SQL constraints are used to specify rules for the data in a table. Constraints are used to limit the type of data that can go into a table. 
+
+>NOT NULL - Ensures that a column cannot have a NULL value
+ 
+>UNIQUE - Ensures that all values in a column are different
+ 
+>PRIMARY KEY - Uniquely identifies each row in a table
+ 
+>FOREIGN KEY - Prevents actions that would destroy links between tables
+ 
+>CHECK - Ensures that the values in a column satisfies a specific condition
+ 
+>DEFAULT - Sets a default value for a column if no value is specified
+ 
+>CREATE INDEX - Used to create and retrieve data from the database very quickly
+
+ 
  
 What is Stored Procedure ? <br>
- A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again.
-
-
+A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again.
 
 What is the diference between Primary key and Foreign key?
 A primary key generally focuses on the uniqueness of the table. It assures the value in the specific column is unique. A foreign key is generally used to build a relationship between the two tables. Table allows only one primary key.
