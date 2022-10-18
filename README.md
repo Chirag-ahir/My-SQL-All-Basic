@@ -11,11 +11,14 @@ A field is a column in a table that is supposed to provide specific information 
 What is a Record ?<br>
 A record is a row in a table. It is also known as a Horizontal entity of a table.
 
-What is Null value ?
+What is Null value ?<br>
 A null is neither an empty string nor a zero value.
 
 What is Data ?<br>
 Data is defined as facts or figures, or information that's stored in or used by a computer.
+
+What is DataType?<br>
+A DataType is a property that specifies the type of data you can put in your table.
 
 What is Database ?<br>
 Database is a storage system that has a collection of data. 
