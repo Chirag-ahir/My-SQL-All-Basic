@@ -90,6 +90,9 @@ A stored procedure is a prepared SQL code that you can save, so the code can be 
 
 What is the diference between Primary key and Foreign key?
 A primary key generally focuses on the uniqueness of the table. It assures the value in the specific column is unique. A foreign key is generally used to build a relationship between the two tables. Table allows only one primary key.
+
+What is the difference between Char and Varchar?<br>
+CHAR is a fixed length field; VARCHAR is a variable length field. If you are storing strings with a wildly variable length such as names, then use a VARCHAR, if the length is always the same, then use a CHAR because it is slightly more size-efficient
  
  What is SQL Joins ?<br>
  A SQL JOIN clause is used to combine rows from two or more tables, based on a related column between them.<br>
