@@ -17,11 +17,14 @@ A null is neither an empty string nor a zero value.
 What is Data ?<br>
 Data is defined as facts or figures, or information that's stored in or used by a computer.
 
+What is Data in perspective of SQL?<br>
+Data is a collection of information in a row and column format or it refers to all the single items that are stored in a database, either individually or as a set.
+
 What is DataType?<br>
 A DataType is a property that specifies the type of data you can put in your table.
 
 What is Database ?<br>
-Database is a storage system that has a collection of data. 
+A database is a systematic collection of data where each row reflects a data entity, and every column defines a specific information field.
 
 What is SQL ? <br>
 SQL stands for ‘Structured Query Language’. It is the most common programming language used for executing queries, and handling data by using CRUD (create, read, update and delete) operation on a Relational Database Management System (RDMS) like MySQL, PostgreSQL.
