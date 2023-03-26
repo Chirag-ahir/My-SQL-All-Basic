@@ -150,3 +150,5 @@ what is Sub qury in SQL ?<br>
 what is UNION ?<BR>
  Unions combine the results from multiple SELECT queries into a consolidated result set.
 
+ what is View?<br>
+ VIEWS are virtual tables that do not store any data of their own but display data stored in other tables.
