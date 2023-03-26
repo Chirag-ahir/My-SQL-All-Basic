@@ -141,3 +141,6 @@ What is Order by cluase ?<br>
  what is ALTER function ?<br>
  MySQL provides the ALTER function that helps us incorporate the changes to the already existing database design.
 
+what is LIMIT keyword ?<br>
+ The limit keyword is used to limit the number of rows returned in a query result.
+
