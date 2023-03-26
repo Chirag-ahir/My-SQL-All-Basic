@@ -127,3 +127,6 @@ what is ER Modeling ?<br>
 
 What is Order by cluase ?<br>
   The MySQL ORDER BY clause is used to sort the query result sets in either ascending or descending order.
+
+ what is group by clause ?<br>
+ The GROUP BY clause is a SQL command that is used to group rows that have the same values. 
