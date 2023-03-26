@@ -144,3 +144,6 @@ What is Order by cluase ?<br>
 what is LIMIT keyword ?<br>
  The limit keyword is used to limit the number of rows returned in a query result.
 
+what is Sub qury in SQL ?<br>
+ A sub query is a select query that is contained inside another query. The inner select query is usually used to determine the results of the outer select query.
+
