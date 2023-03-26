@@ -119,4 +119,5 @@ Primary key will not accept NULL values whereas Unique key can accept NULL value
 
 ![](SQL.jpg)
  
-
+what is ER Modeling ?<br>
+ Entity Relationship Model (ER Modeling) is a graphical approach to database design. It is a high-level data model that defines data elements and their relationship for a specified software system. An ER model is used to represent real-world objects.
