@@ -134,3 +134,7 @@ What is Order by cluase ?<br>
  What is IS NULL and NOT NULL ?<br>
  “IS NULL” is the keyword that performs the Boolean comparison. It returns true if the supplied value is NULL and false if the supplied value is not NULL.<br>
 “NOT NULL” is the keyword that performs the Boolean comparison. It returns true if the supplied value is not NULL and false if the supplied value is null.
+
+ What is Auto Increment ?<br>
+ Auto Increment is a function that operates on numeric data types. It automatically generates sequential numeric values every time that a record is inserted into a table for a field defined as auto increment.
+
