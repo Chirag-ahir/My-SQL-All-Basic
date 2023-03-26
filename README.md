@@ -130,3 +130,7 @@ What is Order by cluase ?<br>
 
  what is group by clause ?<br>
  The GROUP BY clause is a SQL command that is used to group rows that have the same values. 
+ 
+ What is IS NULL and NOT NULL ?<br>
+ “IS NULL” is the keyword that performs the Boolean comparison. It returns true if the supplied value is NULL and false if the supplied value is not NULL.<br>
+“NOT NULL” is the keyword that performs the Boolean comparison. It returns true if the supplied value is not NULL and false if the supplied value is null.
