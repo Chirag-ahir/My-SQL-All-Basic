@@ -138,3 +138,6 @@ What is Order by cluase ?<br>
  What is Auto Increment ?<br>
  Auto Increment is a function that operates on numeric data types. It automatically generates sequential numeric values every time that a record is inserted into a table for a field defined as auto increment.
 
+ what is ALTER function ?<br>
+ MySQL provides the ALTER function that helps us incorporate the changes to the already existing database design.
+
