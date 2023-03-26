@@ -121,3 +121,8 @@ Primary key will not accept NULL values whereas Unique key can accept NULL value
  
 what is ER Modeling ?<br>
  Entity Relationship Model (ER Modeling) is a graphical approach to database design. It is a high-level data model that defines data elements and their relationship for a specified software system. An ER model is used to represent real-world objects.
+ 
+ what is where clause ?<br>
+ WHERE Clause in MySQL is a keyword used to specify the exact criteria of data or rows that will be affected by the specified SQL statement. The WHERE clause can be used with SQL statements like INSERT, UPDATE, SELECT, and DELETE to filter records and perform various operations on the data.
+
+
