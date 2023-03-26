@@ -125,4 +125,5 @@ what is ER Modeling ?<br>
  what is where clause ?<br>
  WHERE Clause in MySQL is a keyword used to specify the exact criteria of data or rows that will be affected by the specified SQL statement. The WHERE clause can be used with SQL statements like INSERT, UPDATE, SELECT, and DELETE to filter records and perform various operations on the data.
 
-
+What is Order by cluase ?<br>
+  The MySQL ORDER BY clause is used to sort the query result sets in either ascending or descending order.
