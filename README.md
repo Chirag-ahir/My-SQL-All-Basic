@@ -152,3 +152,6 @@ what is UNION ?<BR>
 
  what is View?<br>
  VIEWS are virtual tables that do not store any data of their own but display data stored in other tables.
+
+ what is the difference between trigger and stored procedure ?<br>
+ The key distinction between the trigger and procedure is that a trigger is called automatically when a data modification event occurs against a table. A stored procedure, on the other hand, must be invoked directly.
